@@ -1,0 +1,19 @@
+{
+    "name": "php-cpm/kafka-meta",
+    "description": "get kafka metaData by using zookeeper or read directly from brokers",
+    "license": "Apache 2.0",
+    "autoload": {
+        "psr-4": {
+            "KafkaMeta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zouyi6",
+            "email": "zouyi6@wanda.cn"
+        }
+    ],
+    "require": {
+        "ext-zookeeper": "*"
+    }
+}
